@@ -1,0 +1,107 @@
+body {
+    justify-content:flex-start;
+    display:block;
+    background:repeating-radial-gradient(
+            #ffcff1 1px, 
+            #32d6ff 100px, 
+            #ffd6f4 100px, 
+            #e1eaff 200px);
+    background-position: 0px 0px, 0px 0px;
+    background-size: 50px 400px;
+    animation: colorshift 5s infinite;
+    filter: hue-rotate(-20deg);
+    position: static;
+    float: bottom;
+width: 100%;
+height: 44vh;
+}
+@keyframes colorshift {
+    0% {background: #924aff;}
+    50% {background: #fffb08;}
+    100% {background: #f8a8ff;}
+}
+.left {
+    width:25%;
+    display:block;
+    float:left;
+    padding-left:30px;
+  }
+  
+@keyframes 
+    @media screen and (max-width: 576px) {
+    }
+    img {
+        width: 40%;
+        height: 5%;
+        transition: transform .4s;
+    }
+    img:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+    1 {
+        width: 2px;
+        height: 5px;
+        padding: 9px;
+        border: 8px;
+      }
+
+    2 {
+        width: 70%;
+        height: 5%;
+        padding: 9px;    
+    }
+    3 {
+        width: 70%;
+        height: 5%;
+        padding: 9px; 
+    }
+    4 {
+        width: 70%;
+        height: 5%;
+        padding: 9px; 
+    }
+    5 {
+        width: 40%;
+        height: 5%;
+        padding: 9px; 
+    }
+    .column {
+    color: rgb(255, 152, 203);
+    writing-mode: vertical-rl;
+    text-orientation: invert;
+    font-kerning: 308px;
+    font-size: 100px;
+    margin-right: 300px;
+    align-items:center;
+    }
+    .visuals {
+        column-count: 1;
+        border-style:double;
+        border-width: 30px;
+        border-right-width: 90px;
+        border-color: #ff9b99;
+        padding: 5px;
+        align-items:center;
+    }
+    .text {
+        color:rgb(123, 191, 255);
+        font-style: oblique;
+        text-shadow: 3px 1px #ffc4f6;
+        text-shadow: 4px 8px #06007d;
+        font-kerning: -300px;
+        font-size: 130px;
+        font-variant-caps: petite-caps;
+        white-space: wrap ;
+        width: -800px;
+        font-family: sans-serif;
+        transform: skew(-200deg,10deg);
+        margin-top: -800px;
+        overflow-x: scroll;
+    @-webkit-keyframes my-animation {
+            from { -webkit-transform: translateX(100%); }
+            to { -webkit-transform: translateX(-100%); }
+          }
+          
+    }

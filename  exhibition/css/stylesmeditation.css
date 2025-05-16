@@ -1,0 +1,43 @@
+body {
+    display:flex;
+    background-color:rgb(29, 138, 31);
+}
+1 {
+    margin: 0 auto;
+    z-index: -4;
+    padding: 90px;
+    padding-right: 40px;
+ }
+
+ .container {
+    display: flex;
+    justify-content:safe;
+ }
+ iframe {
+    aspect-ration: 16 / 9;
+    width: 100% !important;
+ }
+ 
+ .your-style {
+    font-family: 'Jumper PERSONAL USE ONLY';
+    font-weight: 900;
+    font-size: 70px;
+    transform: scaleX(-4);
+    padding: 50px;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    color: #ffea00;
+}
+.your-style2 {
+    color: #0011ff21;
+    font-family: 'Jumper PERSONAL USE ONLY';
+    font-weight: 900;
+    font-size: 100px;
+    transform:rotateZ('-70deg')
+    translateY(4)
+    padding: 70px;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    z-index: -4;
+    display: flex;
+}

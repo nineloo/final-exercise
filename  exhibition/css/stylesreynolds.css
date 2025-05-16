@@ -1,0 +1,43 @@
+body {
+    display:flex;
+    background-color:rgba(255, 243, 17, 0.441);
+}
+1 {
+    margin: 0 auto;
+    z-index: -4;
+    padding: 90px;
+    padding-right: 40px;
+ }
+ 
+ .your-style {
+    font-family: 'Jumper PERSONAL USE ONLY';
+    font-weight: 900;
+    font-size: 100px;
+    transform: scaleX(-4);
+    padding: 50px;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    color: #b3ffc6;
+}
+.your-style2 {
+    font-family: 'Jumper PERSONAL USE ONLY';
+    font-weight: 900;
+    font-size: 100px;
+    transform: scaleX(4);
+    padding: -50px;
+    font-style: normal;
+    font-stretch: ultra-expanded;
+    color: #ff4dca1e;
+    z-index: -4;
+    display: flex;
+}
+.words {
+display: flex;
+font-size: 100px;
+padding: 200px;
+}
+.text {
+display: flex;
+margin-right: -50px;
+padding-top: -2500px;
+}
